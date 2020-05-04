@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 
 import com.web.service.api.dto.UsuariosDTO;
 
-
 @Repository
 public interface IApiWebServices extends CrudRepository<UsuariosDTO, Long> {
 
