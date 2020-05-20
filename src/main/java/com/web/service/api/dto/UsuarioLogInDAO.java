@@ -1,0 +1,20 @@
+package com.web.service.api.dto;
+
+public class UsuarioLogInDAO {
+
+	private String userName;
+	private String userPassword;
+	
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getUserPassword() {
+		return userPassword;
+	}
+	public void setUserPassword(String userPassword) {
+		this.userPassword = userPassword;
+	}
+}
